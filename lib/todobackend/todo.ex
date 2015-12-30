@@ -22,7 +22,7 @@ defimpl Poison.Encoder, for: Todobackend.Todo do
   def encode(model, opts) do
     model
     |> Map.take([:title, :id, :completed, :order])
-    |> Map.put_new(:url, "http://localhost:4000/#{model.id}")
+    |> Map.put_new(:url, "#{Application.get_env(:todobackend, :base_url)}#{model.id}")
     |> Poison.Encoder.encode(opts)
   end
 end
