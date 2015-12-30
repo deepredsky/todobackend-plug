@@ -1,1 +1,1 @@
-web: MIX_ENV=prod elixir -pa _build/prod/consolidated -S mix server
+web: MIX_ENV=prod elixir -S mix run --no-compile --no-halt
