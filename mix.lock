@@ -1,0 +1,11 @@
+%{"connection": {:hex, :connection, "1.0.2"},
+  "cors_plug": {:hex, :cors_plug, "0.1.4"},
+  "cowboy": {:hex, :cowboy, "1.0.4"},
+  "cowlib": {:hex, :cowlib, "1.0.2"},
+  "decimal": {:hex, :decimal, "1.1.1"},
+  "ecto": {:hex, :ecto, "1.1.1"},
+  "plug": {:hex, :plug, "1.0.3"},
+  "poison": {:hex, :poison, "1.4.0"},
+  "poolboy": {:hex, :poolboy, "1.5.1"},
+  "postgrex": {:hex, :postgrex, "0.10.0"},
+  "ranch": {:hex, :ranch, "1.2.0"}}
