@@ -4,10 +4,8 @@ use Mix.Config
 
 config :todobackend, Todobackend.Repo,
   adapter: Ecto.Adapters.Postgres,
-  database: "todobackend_plug",
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost"
+  url: {:system, "DATABASE_URL"},
+  size: 20 # The amount of database connections in the pool
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
